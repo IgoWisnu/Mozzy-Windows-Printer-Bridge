@@ -1,0 +1,25 @@
+{
+  "name": "pos-bridge-printer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test:formatter": "node test/test-formatter.js",
+    "test:printer": "node test/printer-test.js",
+    "test:mock": "node test/mock-server.js"
+  },
+  "keywords": [
+    "pos",
+    "bridge",
+    "printer",
+    "thermal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Local bridge printer client for POS — polls for pending print jobs and sends them to a thermal printer",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "node-thermal-printer": "^4.6.0",
+    "socket.io-client": "^4.8.3"
+  }
+}
