@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build:exe": "pkg index.js --targets node18-win-x64 --output pos-bridge-printer.exe",
     "test:formatter": "node test/test-formatter.js",
     "test:printer": "node test/printer-test.js",
     "test:mock": "node test/mock-server.js"
