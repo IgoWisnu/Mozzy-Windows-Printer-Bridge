@@ -6,7 +6,9 @@
     "bar",
     "cashier"
   ],
-  "PAPER_WIDTH": 42,
+  "PAPER_WIDTH": 48,
+  "PRINT_LOGO": true,
+  "PRINTER_TYPE": "epson",
   "STORE_NAME": "Mozzy",
   "DRY_RUN": false,
   "DEFAULT_PRINTER": "CASHIER",
