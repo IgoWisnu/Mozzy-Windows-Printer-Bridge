@@ -2,12 +2,14 @@ const config = require('./lib/config');
 const logger = require('./lib/logger');
 const { connectSocket } = require('./lib/socket');
 const { checkAllPrinters } = require('./lib/printer');
+const { startWebServer } = require('./lib/server');
 
 let isShuttingDown = false;
 
 // ─── Startup ─────────────────────────────────────────────
 
 async function start() {
+    startWebServer(5000);
     console.log('');
     console.log('  ╔══════════════════════════════════════╗');
     console.log('  ║       Local Print Service (WSS)      ║');

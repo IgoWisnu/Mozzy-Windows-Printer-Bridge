@@ -2,15 +2,11 @@
   "SERVER_URL": "https:192.168.1.100:3001",
   "API_KEY": "3e2c96ec-790e-4c5a-8b90-dd619622b0bf",
   "PRINT_AREAS": [
-    "kitchen",
-    "bar",
     "cashier"
   ],
   "PAPER_WIDTH": 40,
   "PRINT_COPIES": 1,
   "PRINT_COPIES_MAP": {
-    "kitchen": 1,
-    "bar": 1,
     "cashier": 1
   },
   "PRINT_LOGO": true,
@@ -18,10 +14,8 @@
   "PRINTER_TYPE": "epson",
   "STORE_NAME": "Mozzy",
   "DRY_RUN": false,
-  "DEFAULT_PRINTER": "CASHIER",
+  "DEFAULT_PRINTER": "EPSON80",
   "PRINTER_MAP": {
-    "kitchen": "KITCHEN",
-    "bar": "BAR",
-    "cashier": "CASHIER"
+    "cashier": "EPSON80"
   }
 }
