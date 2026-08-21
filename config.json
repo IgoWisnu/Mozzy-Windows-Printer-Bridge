@@ -6,8 +6,15 @@
     "bar",
     "cashier"
   ],
-  "PAPER_WIDTH": 48,
+  "PAPER_WIDTH": 40,
+  "PRINT_COPIES": 1,
+  "PRINT_COPIES_MAP": {
+    "kitchen": 1,
+    "bar": 1,
+    "cashier": 1
+  },
   "PRINT_LOGO": true,
+  "IMAGE_MODE": "esc_star",
   "PRINTER_TYPE": "epson",
   "STORE_NAME": "Mozzy",
   "DRY_RUN": false,
