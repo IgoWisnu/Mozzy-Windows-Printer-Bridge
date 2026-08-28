@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build:exe": "npx pkg index.js --targets node18-win-x64 --output pos-bridge-printer-v2.exe",
+    "build:exe": "npx pkg index.js --targets node18-win-x64 --output mozzy-print-service.exe",
     "test:formatter": "node test/test-formatter.js",
     "test:printer": "node test/printer-test.js",
     "test:mock": "node test/mock-server.js"

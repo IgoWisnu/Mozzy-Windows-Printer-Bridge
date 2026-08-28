@@ -1,10 +1,10 @@
 {
-  "SERVER_URL": "https:192.168.1.100:3001",
-  "API_KEY": "3e2c96ec-790e-4c5a-8b90-dd619622b0bf",
+  "SERVER_URL": "https://staging.mozzypos.com",
+  "API_KEY": "6933d149-4fa1-45f2-9169-50a1cec8a613",
   "PRINT_AREAS": [
     "cashier"
   ],
-  "PAPER_WIDTH": 40,
+  "PAPER_WIDTH": 35,
   "PRINT_COPIES": 1,
   "PRINT_COPIES_MAP": {
     "cashier": 1
